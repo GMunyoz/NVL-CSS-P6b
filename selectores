@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="utf-8">
+     <title>html</title>
+     <style>
+section p {
+   color: blue;
+}
+
+div > p {
+      border: 2px solid #fabada;
+}
+
+p ~ p {
+    color:red
+}
+
+     </style>
+
+	<body>
+      <section>
+        <div>
+         <p class="important">Paragraph 1</p>
+         <p>Paragraph 2</p>
+        </div> 
+        <div>
+           <h2>Heading 2</h2>
+           <p>Parrafo 3</p>
+           <p>Paragraph 4</p>
+        </div>
+         <a href=”www.upgrade-formacion.com”>Upgrade formación</a><br>   
+         <span>Esto es un texto para explicar el css de combinación múltiple</span>
+      </section>
+   </body>
+</html> 
